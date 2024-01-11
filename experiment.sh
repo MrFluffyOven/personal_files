@@ -1,9 +1,9 @@
 echo
-echo "------------------"
-echo " Installer Script "
-echo " by MrFluffyOven  " 
-echo "   MFO Choices.   " 
-echo "------------------"
+echo "----------------------"
+echo " Prep for Treble_AOSP "
+echo "   by MrFluffyOven    " 
+echo "   With MFO Choices   " 
+echo "----------------------"
 echo
 
 
