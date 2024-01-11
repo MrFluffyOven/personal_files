@@ -24,6 +24,7 @@ sudo apt-get install python3.11
 sudo apt-get install python-is-python3 
 sudo apt-get install python3-pip
 pip3 install lunch
+echo
 
 
 echo "--> Installing JDK 11"
@@ -33,6 +34,7 @@ echo
 echo "--> Installing Gradle 7.2"
 snap install gradle --classic
 echo 
+
 
 echo "--> Installing MFO Choices" 
 sudo apt-get install unzip
@@ -49,9 +51,11 @@ echo "--> Make Aosp Directory"
 mkdir aosp; cd aosp
 echo
 
+
 echo "--> Clone treble_aosp"
 git clone https://github.com/MrFluffyOven/treble_aosp.git - b arrow
 echo
+
 
 echo "--> BUILD"
 bash treble_aosp/build.sh . 
